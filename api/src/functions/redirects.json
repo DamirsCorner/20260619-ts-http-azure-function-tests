@@ -1,0 +1,6 @@
+[
+  {
+    "route": "^/categories/(.*)$",
+    "redirect": "/tags/$1.html"
+  }
+]

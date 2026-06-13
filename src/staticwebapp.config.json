@@ -1,0 +1,8 @@
+{
+  "navigationFallback": {
+    "rewrite": "/api/redirect"
+  },
+  "platform": {
+    "apiRuntime": "node:20"
+  }
+}
