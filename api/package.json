@@ -8,15 +8,18 @@
     "clean": "rimraf dist",
     "prestart": "npm run clean && npm run build",
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "jest"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0",
     "ufo": "^1.6.4"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.x",
+    "jest": "^30.4.2",
     "rimraf": "^5.0.0",
+    "ts-jest": "^29.4.11",
     "typescript": "^5.0.0"
   },
   "main": "dist/src/{index.js,functions/*.js}"
